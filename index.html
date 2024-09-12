@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modeular</title>
+    <style>
+         .app{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+        .bubble{
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(to right top, rgb(0, 122, 128) ,rgb(40, 5, 101));
+            font-weight: 500;
+            font-family:  Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            border-radius: 50%;
+            border-top: 5px solid blue;
+            margin: 2px 4px;
+            
+            animation: rotate 2s linear  infinite;
+        }
+       @keyframes rotate {
+         100%{
+           
+             rotate: 360deg;}
+       }
+
+        
+    </style>
+</head>
+<body>
+    <div class="app"></div>
+  
+<script type="module" src="./script.js "></script>    
+</body>
+</html>
